@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weather App</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #1e3c72; color: #fff;
+         display: flex; justify-content: center; padding-top: 60px; margin: 0; }
+  .card { background: rgba(255,255,255,0.12); padding: 30px; border-radius: 16px;
+          width: 320px; text-align: center; }
+  input { padding: 10px; width: 65%; border-radius: 8px; border: none; }
+  button { padding: 10px 14px; border-radius: 8px; border: none; cursor: pointer;
+           background: #ffb703; font-weight: bold; }
+  #result { margin-top: 24px; }
+  #temp { font-size: 48px; margin: 8px 0; }
+  .error { color: #ffb4b4; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h2>Weather App</h2>
+  <input id="city" type="text" placeholder="Enter city name">
+  <button id="searchBtn">Search</button>
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
